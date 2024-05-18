@@ -40,6 +40,7 @@ jobs:
         shell: bash
 
       - name: Upload DMG to Release
+        if: matrix.os == 'macos-latest' && steps.build.outputs.dmg_exists == 'true'
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ github.event.release.upload_url }}
@@ -48,6 +49,7 @@ jobs:
           asset_content_type: application/octet-stream
 
       - name: Upload EXE to Release
+        if: matrix.os == 'windows-latest' && steps.build.outputs.exe_exists == 'true'
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ github.event.release.upload_url }}
@@ -56,9 +58,25 @@ jobs:
           asset_content_type: application/octet-stream
 
       - name: Upload AppImage to Release
+        if: matrix.os == 'ubuntu-latest' && steps.build.outputs.appimage_exists == 'true'
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: dist/*.AppImage
           asset_name: installer.AppImage
           asset_content_type: application/octet-stream
+
+      - name: Check if DMG exists
+        if: matrix.os == 'macos-latest'
+        id: check_dmg
+        run: echo "::set-output name=dmg_exists::$(if [ -f dist/*.dmg ]; then echo true; else echo false; fi)"
+
+      - name: Check if EXE exists
+        if: matrix.os == 'windows-latest'
+        id: check_exe
+        run: echo "::set-output name=exe_exists::$(if [ -f dist/*.exe ]; then echo true; else echo false; fi)"
+
+      - name: Check if AppImage exists
+        if: matrix.os == 'ubuntu-latest'
+        id: check_appimage
+        run: echo "::set-output name=appimage_exists::$(if [ -f dist/*.AppImage ]; then echo true; else echo false; fi)"
