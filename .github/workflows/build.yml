@@ -1,9 +1,6 @@
 name: Build
 
-on:
-  push:
-    tags:
-      - '*'
+on: push
 
 jobs:
   release:
@@ -30,13 +27,6 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Get the current tag
-        id: get_tag
-        run: echo "RELEASE_TAG=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
-
-      - name: Update package.json version
-        run: node update-version.js ${{ env.RELEASE_TAG }}
-
       - name: Install Dependencies
         run: npm ci
         shell: bash
@@ -47,7 +37,7 @@ jobs:
         run: npm run dist
         shell: bash
 
-      - name: Upload Artifacts
+      - name: Upload DMG, EXE, and AppImage Artifacts
         uses: actions/upload-artifact@v3
         with:
           name: build-artifacts
