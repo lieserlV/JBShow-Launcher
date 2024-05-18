@@ -37,8 +37,11 @@ jobs:
         run: npm run dist
         shell: bash
 
-      - name: Upload Artifacts
+      - name: Upload DMG, EXE, and AppImage Artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: dist
-          path: dist/
+          name: build-artifacts
+          path: |
+            dist/*.dmg
+            dist/*.exe
+            dist/*.AppImage
