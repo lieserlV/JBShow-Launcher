@@ -1,8 +1,9 @@
 name: Build
 
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - '*'
 
 jobs:
   release:
@@ -29,6 +30,13 @@ jobs:
         with:
           python-version: 3.x
 
+      - name: Get the current tag
+        id: get_tag
+        run: echo "RELEASE_TAG=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
+
+      - name: Update package.json version
+        run: node update-version.js ${{ env.RELEASE_TAG }}
+
       - name: Install Dependencies
         run: npm ci
         shell: bash
@@ -39,29 +47,23 @@ jobs:
         run: npm run dist
         shell: bash
 
-      - name: Upload DMG Artifacts
-        if: matrix.os == 'macos-latest'
-        uses: actions/upload-release-asset@v1
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v3
         with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: dist/*.dmg
-          asset_name: ${{ steps.list_artifacts.outputs.artifact_name }}
-          asset_content_type: application/octet-stream
+          name: build-artifacts
+          path: |
+            dist/*.dmg
+            dist/*.exe
+            dist/*.AppImage
 
-      - name: Upload EXE Artifacts
-        if: matrix.os == 'windows-latest'
-        uses: actions/upload-release-asset@v1
+      - name: Upload Release Artifacts
+        uses: ncipollo/release-action@v1
         with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: dist/*.exe
-          asset_name: ${{ steps.list_artifacts.outputs.artifact_name }}
-          asset_content_type: application/octet-stream
-
-      - name: Upload AppImage Artifacts
-        if: matrix.os == 'ubuntu-latest'
-        uses: actions/upload-release-asset@v1
-        with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: dist/*.AppImage
-          asset_name: ${{ steps.list_artifacts.outputs.artifact_name }}
-          asset_content_type: application/octet-stream
+          artifacts: "dist/*.dmg, dist/*.exe, dist/*.AppImage"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.ref }}
+          name: ${{ github.ref_name }}
+          release_name: Release ${{ github.ref_name }}
+          body: "Release ${{ github.ref_name }}"
+          draft: false
+          prerelease: false
