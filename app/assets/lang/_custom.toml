@@ -1,20 +1,20 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "Helios Launcher"
+title = "JBShow - Serveur Communautaire"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/dscalzi/HeliosLauncher"
-mediaTwitterURL = "#"
+mediaGitHubURL = "https://github.com/Metaloul/JBShow-Launcher"
+mediaTwitterURL = "twitter.com/JBS_Ibonek"
 mediaInstagramURL = "#"
-mediaYouTubeURL = "#"
-mediaDiscordURL = "https://discord.gg/zNWUXdt"
+mediaYouTubeURL = "https://www.youtube.com/@JeanBaptisteShow"
+mediaDiscordURL = "https://discord.gg/aQtFyQk"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
-supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
+sourceGithubLink = "https://github.com/Metaloul/JBShow-Launcher"
+supportLink = "https://github.com/Metaloul/JBShow-Launcher/issues"
 
 [ejs.welcome]
-welcomeHeader = "WELCOME TO WESTEROSCRAFT"
-welcomeDescription = "Our mission is to recreate the universe imagined by author George RR Martin in his fantasy series, A Song of Ice and Fire.  Through the collaborative effort of thousands of community members, we have sought to create Westeros as accurately and precisely as possible within Minecraft.  The world we are creating is yours to explore.  Journey from Dorne to Castle Black, and if you aren’t afraid, beyond the Wall itself, but best not delay.  As the words of House Stark ominously warn: Winter is Coming."
-welcomeDescCTA = "You are just a few clicks away from Westeros."
+welcomeHeader = "BIENVENUE SUR LE LAUNCHER DU JBSHOW"
+welcomeDescription = "Les reptiliens sont partout maintenant et l'organisation secrète du KJB mène des expériences sur le monde. Nan je déconne c'est juste un serveur Minecraft (quoi que...) Vous l'attendiez, il est enfin de retour, le serveur du JBShow renaît de ses cendres. Le but de ce launcher est de vous permettre une installation rapide et très facile du modpack nécessaire pour rejoindre le serveur. Aucun autre support (curseforge/modrinth...) ne sera pris en charge pour des raisons de praticité. Le serveur est en version alpha, vous en conviendrez que des bugs pourront survenir durant vos sessions de jeux. Si jamais vous en avez, merci de nous les report (en faisant attention de vérifier que personne n'en a déjà parlé bien-sûr)."
+welcomeDescCTA = "Tu n'as qu'à cliquer sur continuer jeune maçon"
