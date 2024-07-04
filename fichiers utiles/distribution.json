@@ -1,0 +1,2673 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "beta-light-1.20.1",
+      "name": "[Beta] Light",
+      "description": "Version comprenant uniquement les mods client et mods serveur obligatoire",
+      "icon": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/icon.png",
+      "version": "1.0.0",
+      "address": "horus.sigma-heberg.fr:25566",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.11",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1327691,
+            "MD5": "b49fcf1bafc14bcda2472a0f060ebe41",
+            "url": "https://jbshow-cdn.sigma-heberg.fr/repo/lib/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.15.11",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "8441132de60bb6e36b7cbddb62716337",
+                "url": "https://jbshow-cdn.sigma-heberg.fr/repo/versions/1.20.1-fabric-0.15.11/1.20.1-fabric-0.15.11.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://jbshow-cdn.sigma-heberg.fr/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://jbshow-cdn.sigma-heberg.fr/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://jbshow-cdn.sigma-heberg.fr/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://jbshow-cdn.sigma-heberg.fr/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://jbshow-cdn.sigma-heberg.fr/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1458875,
+                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
+                "url": "https://jbshow-cdn.sigma-heberg.fr/repo/lib/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://jbshow-cdn.sigma-heberg.fr/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dev.isxander.adaptivetooltips:adaptive-tooltips:1.3.0@jar",
+          "name": "Adaptive Tooltips",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 153757,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/AdaptiveTooltips-1.3.0-fabric-1.20.2.jar",
+            "MD5": "608561432bbe3b82dd826e24a9538f73"
+          }
+        },
+        {
+          "id": "com.supermartijn642:additionallanterns:1.1.1a@jar",
+          "name": "Additional Lanterns",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3636962,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/additionallanterns-1.1.1a-fabric-mc1.20.2.jar",
+            "MD5": "6f95d1c847c9ef96c477bf264d2259c1"
+          }
+        },
+        {
+          "id": "dlovin.advancedcompass:advancedcompass:1.2.15@jar",
+          "name": "Advanced Compass",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 515463,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/advancedcompass.fabric.1.20.1-1.2.15.jar",
+            "MD5": "6956232d8179445ef8a4dd048f4c0968"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:advancementplaques:1.4.11@jar",
+          "name": "Advancement Plaques",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 193733,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/AdvancementPlaques-1.20.1-fabric-1.4.11.jar",
+            "MD5": "5b3231f2fec5a0586d1e88aeb0aecb8a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:amendments:1.20-1.2.8@jar",
+          "name": "Amendments",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 952135,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/amendments-1.20-1.2.8-fabric.jar",
+            "MD5": "41b577120a83d72a516b71d891c0774b"
+          }
+        },
+        {
+          "id": "fabric.com.cursee:animal_armor_trims:1.0.0@jar",
+          "name": "Animal Armor Trims: Horses",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 353368,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/animal_armor_trims-merged-1.20.1-1.0.0.jar",
+            "MD5": "0b10445ab9cd7d639e0709472b1b2d87"
+          }
+        },
+        {
+          "id": "de.guntram.mcmod:antighost:1.20-fabric0.83.0-1.1.5@jar",
+          "name": "AntiGhost",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 47162,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/antighost-1.20-fabric0.83.0-1.1.5.jar",
+            "MD5": "342f68c03c210e9769f9d74b809a34e0"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1064362,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/appleskin-fabric-mc1.20.1-2.5.1.jar",
+            "MD5": "723370be246a876144ae424cbbfd60f4"
+          }
+        },
+        {
+          "id": "com.obscuria:aquamirae:6@jar",
+          "name": "Aquamirae",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16111383,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Aquamirae-6.jar",
+            "MD5": "e817cdf90a103d1f48ddd96b8b0ddcd6"
+          }
+        },
+        {
+          "id": "net.archers:archers:1.2.4+1.20.1@jar",
+          "name": "Archers (RPG Series)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1024064,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/archers-1.2.4+1.20.1.jar",
+            "MD5": "84bd5702c5bf8e87f27551c28f461e31"
+          }
+        },
+        {
+          "id": "dev.architectury.utils:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 585207,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/architectury-9.2.14-fabric.jar",
+            "MD5": "2ae04e0dad60a390031ee341e0b2ab45"
+          }
+        },
+        {
+          "id": "net.bmjo:armortip:1.0.0@jar",
+          "name": "Armortip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 23931,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/armortip-1.0.0-1.21.1.jar",
+            "MD5": "ac478cbf24cb231c19d3cd7c7197615f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "earth.terrarium.athena.impl:athena:3.1.2@jar",
+          "name": "Athena",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 74370,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/athena-fabric-1.20.1-3.1.2.jar",
+            "MD5": "4fd1c38eaf802239c3faeda982a77f2d"
+          }
+        },
+        {
+          "id": "mod.azure:azurelibarmor:2.0.5@jar",
+          "name": "AzureLib Armor",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 411967,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/azurelibarmor-fabric-1.20.1-2.0.5.jar",
+            "MD5": "a2dbbbe931f38e236dfc1b828883e63f"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:backpacked:2.2.7@jar",
+          "name": "Backpacked",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 381868,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/backpacked-fabric-1.20.1-2.2.7.jar",
+            "MD5": "27a53a55d8379624e38d6e56ffed880f"
+          }
+        },
+        {
+          "id": "org.betterx:bclib:3.0.14@jar",
+          "name": "BCLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2312835,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/bclib-3.0.14.jar",
+            "MD5": "f8ace3a498b889040dea6ff1ea85d288"
+          }
+        },
+        {
+          "id": "io.github.suel_ki:beautify:1.2.0+1.20.1@jar",
+          "name": "Beautify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 825685,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/beautify-1.2.0+1.20.1.jar",
+            "MD5": "129cad90777ace36aa6e8c41b843870e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:better:end-4.0.11@jar",
+          "name": "Better",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 92544800,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/better-end-4.0.11.jar",
+            "MD5": "25be609cb7b9fc6e4e8782c6fdfea35b"
+          }
+        },
+        {
+          "id": "org.betterx:betternether:9.0.10@jar",
+          "name": "Better Nether",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 22981698,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/better-nether-9.0.10.jar",
+            "MD5": "ddc5a347daf531668da8ebe61bfc1c80"
+          }
+        },
+        {
+          "id": "net.bettercombat:bettercombat:1.8.5+1.20.1@jar",
+          "name": "Better Combat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 902818,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/bettercombat-fabric-1.8.5+1.20.1.jar",
+            "MD5": "220f6c39ad08e28807a4d5307bf56d9b"
+          }
+        },
+        {
+          "id": "com.biomemusic:biomemusic:1.20.1-2.3@jar",
+          "name": "Biome Music Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21174,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/biomemusic-fabric-1.20.1-2.3.jar",
+            "MD5": "f9c794f28fe3063b6dc7c155435cc260"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.ladysnake:blabber:1.6.1-mc1.20.1@jar",
+          "name": "Blabber",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 328074,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/blabber-1.6.1-mc1.20.1-standalone.jar",
+            "MD5": "0c792f1210febfd7392f56c0f87f6563"
+          }
+        },
+        {
+          "id": "me.steven:bodiesbodies:1.0.1@jar",
+          "name": "Bodies! Bodies!",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 163340,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/BodiesBodies-1.0.1.jar",
+            "MD5": "20a2c1a784ed3da6d0ad6c6d577b4167"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:20.1.10@jar",
+          "name": "Bookshelf",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 315918,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Bookshelf-Fabric-1.20.1-20.1.10.jar",
+            "MD5": "51c5dfb5cc35facb92e8ea8015d3c58a"
+          }
+        },
+        {
+          "id": "band.kessokuteatime:bounced:4.1.0@jar",
+          "name": "Bounced!",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 53717,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/bounced-4.1.0-fabric1.20.jar",
+            "MD5": "130a89780565d387c0fb722b882648b8"
+          }
+        },
+        {
+          "id": "io.github.lucaargolo:builtinservers:2.1+1.20@jar",
+          "name": "Builtin Servers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 22137,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/builtin-servers-2.1+1.20-fabric.jar",
+            "MD5": "403484e160730eea0b6189c433cabc34"
+          }
+        },
+        {
+          "id": "net.mcreator:burnt:1.6.0@jar",
+          "name": "Burnt Basic Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3907212,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/burnt_basic-1.0.2_Fabric_1.20.1.jar",
+            "MD5": "393ba4ebc88dba77247943d2749a9423"
+          }
+        },
+        {
+          "id": "me.cael:capes:1.5.2+1.20@jar",
+          "name": "Capes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 170082,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/capes-1.5.2+1.20-fabric.jar",
+            "MD5": "312590823dd12dc676f8908be2e8396d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:charmofundying:forge-6.5.0+1.20.1@jar",
+          "name": "Charmofundying",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 169487,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/charmofundying-forge-6.5.0+1.20.1.jar",
+            "MD5": "d083cc2318c6db88417fc8bf5ee7a18c"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.12.2@jar",
+          "name": "Chat Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 56600,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/chat_heads-0.12.2-fabric-1.20.jar",
+            "MD5": "0e784bfc46583557ac9e74f1600ff2cd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ezzenix.chatanimation:chatanimation:1.0.5@jar",
+          "name": "ChatAnimation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16345637,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/chatanimation-1.0.5.jar",
+            "MD5": "352e79d9617ed4adda0d3ba12936fef0"
+          }
+        },
+        {
+          "id": "red.jackf:chesttracker:1.1.23@jar",
+          "name": "Chest Tracker",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 564842,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/chesttracker-1.20.1-1.1.23.jar",
+            "MD5": "a8ebb9705482ea99029b044c22266fca"
+          }
+        },
+        {
+          "id": "earth.terrarium:chipped:3.0.6@jar",
+          "name": "Chipped",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 15057238,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Chipped-fabric-1.20.1-3.0.6.jar",
+            "MD5": "e3f342d117522d03f5a65781a3712ab0"
+          }
+        },
+        {
+          "id": "nl.enjarai:cicada:0.7.1+1.20.1@jar",
+          "name": "CICADA",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 83399,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/cicada-lib-0.7.2+1.20.1.jar",
+            "MD5": "3b41830c0b0f0f2147b7797b8ed00deb"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:11.1.118@jar",
+          "name": "Cloth Config v11",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1159192,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/cloth-config-11.1.118-fabric.jar",
+            "MD5": "eb13a834db10ee7e8c5e6a6d4b037fbd"
+          }
+        },
+        {
+          "id": "com.natamus:collective:7.68@jar",
+          "name": "Collective",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 637204,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/collective-1.20.1-7.68.jar",
+            "MD5": "a5c10795f0e391a18b134d349df4e126"
+          }
+        },
+        {
+          "id": "com.github.legoatoom:connectiblechains:2.2.1+1.20.1@jar",
+          "name": "Connectible Chains",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 138285,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/connectiblechains-2.2.1+1.20.1.jar",
+            "MD5": "96f2929ef2171dae22b807bb3d4b46a7"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0-beta.5+1.20.1@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1009252,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/continuity-3.0.0-beta.5+1.20.1.jar",
+            "MD5": "1772f06a48c83414f4c6dfc2db4ac530"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:controllable:0.20.2@jar",
+          "name": "Controllable",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16579155,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/controllable-fabric-1.20.1-0.20.2.jar",
+            "MD5": "c84e50bf95366f317a6d5d5865fdc762"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:controlling:12.0.2@jar",
+          "name": "Controlling For Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 122778,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Controlling-fabric-1.20.1-12.0.2.jar",
+            "MD5": "87c6431504ff6a040da4533c933d6b12"
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.20.1-1.3.7@jar",
+          "name": "CoroUtil",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2392617,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/coroutil-fabric-1.20.1-1.3.7.jar",
+            "MD5": "44365b7447c9b4c3aeadcadf454494aa"
+          }
+        },
+        {
+          "id": "com.hypherionmc:craterlib:1.1.1@jar",
+          "name": "CraterLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1218125,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/CraterLib-Fabric-1.20-1.1.1.jar",
+            "MD5": "6881141bde407c9940fb260ce9a16cfd"
+          }
+        },
+        {
+          "id": "ru.fewizz:crawl:0.12.0@jar",
+          "name": "Crawl",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 97866,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/crawl-0.12.0.jar",
+            "MD5": "693b2f07bf2b8280507f32d52bca388e"
+          }
+        },
+        {
+          "id": "tech.thatgravyboat:creeperoverhaul:3.0.2@jar",
+          "name": "Creeper Overhaul",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1451306,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/creeperoverhaul-3.0.2-fabric.jar",
+            "MD5": "0b13cba2a00aafb49298f38d2d3f2e32"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-2.7@jar",
+          "name": "Cupboard",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25668,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/cupboard-fabric-1.20.1-2.7.jar",
+            "MD5": "a7a05a32b4a66d64c6c050666e16d744"
+          }
+        },
+        {
+          "id": "fuzs.cutthrough:cutthrough:8.0.2@jar",
+          "name": "Cut Through",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 53800,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/CutThrough-v8.0.2-1.20.1-Fabric.jar",
+            "MD5": "8f79c8ddde5ee8927e3c0df251e2867f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:dark-loading-screen:1.6.14@jar",
+          "name": "Dark Loading Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 51871,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/dark-loading-screen-1.6.14.jar",
+            "MD5": "d6d474637f13110a8b36df1431eda81d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "lilypuree.decorative_blocks:decorative_blocks:4.1.3@jar",
+          "name": "Decorative Blocks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 546719,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/decorative_blocks-fabric-1.20.1-4.1.3.jar",
+            "MD5": "39a67e78370299975d3a172b582aed24"
+          }
+        },
+        {
+          "id": "com.kyanite:deeperdarker:1.2.6@jar",
+          "name": "Deeper and Darker",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 17454601,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/deeperdarker-fabric-1.20-1.2.6.jar",
+            "MD5": "16eae6aaaa38970e84ae0f5b40e5b610"
+          }
+        },
+        {
+          "id": "fuzs.diagonalfences:diagonalfences:8.1.4@jar",
+          "name": "Diagonal Fences",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 164836,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/DiagonalFences-v8.1.4-1.20.1-Fabric.jar",
+            "MD5": "ad679950be817cd16c94451e208bdfc2"
+          }
+        },
+        {
+          "id": "fuzs.diagonalwalls:diagonalwalls:8.0.3@jar",
+          "name": "Diagonal Walls",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 156141,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/DiagonalWalls-v8.0.3-1.20.1-Fabric.jar",
+            "MD5": "cb1949f9e247c3642fd4d2a211054e1d"
+          }
+        },
+        {
+          "id": "fuzs.diagonalwindows:diagonalwindows:8.1.4@jar",
+          "name": "Diagonal Windows",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 165451,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/DiagonalWindows-v8.1.4-1.20.1-Fabric.jar",
+            "MD5": "8de7c0e9b50c3d0e2d7fcd4098c52885"
+          }
+        },
+        {
+          "id": "me.pieking1215:waterdripsound:1.19-0.3.2@jar",
+          "name": "Drip Sounds",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 84945,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/DripSounds-1.19.4-0.3.2.jar",
+            "MD5": "dde92c669ac6e13fd46ee22a60103676"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:dummmmmmy:1.20-1.8.17b@jar",
+          "name": "MmmMmmMmmMmm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 328036,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/dummmmmmy-1.20-1.8.17b-fabric.jar",
+            "MD5": "e923be70a26fb098975146e3f18fed69"
+          }
+        },
+        {
+          "id": "dev.hexnowloading:dungeonnowloading:1.5@jar",
+          "name": "Dungeon Now Loading",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2265310,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Dungeon%20Now%20Loading-fabric-1.20.1-1.5.jar",
+            "MD5": "473da778e96ba7ed5affba45ec8024ac"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mr_dungeons_andtaverns:3.0.3.f@jar",
+          "name": "Dungeons and Taverns",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 13161726,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/dungeons-and-taverns-3.0.3.f.jar",
+            "MD5": "7e83d9ddc7e54d121c1d193b7b026fee"
+          }
+        },
+        {
+          "id": "net.mhaks:dustydecorations:1.1-1.20.1@jar",
+          "name": "Dusty Decorations Refabricated",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 450676,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/DustyDecoRefabricated-1.1-1.20.1.jar",
+            "MD5": "2c1949337802f7b744cefccf92ddda89"
+          }
+        },
+        {
+          "id": "coffee.injected:dynamicbrightness:1.0.0@jar",
+          "name": "Dynamic Brightness",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 122027,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/DynamicBrightness-1.20-1.0.0.jar",
+            "MD5": "843e0a963d3c91b19ed621d1357e76c5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.easymagic:easymagic:8.0.1@jar",
+          "name": "Easy Magic",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 104693,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/EasyMagic-v8.0.1-1.20.1-Fabric.jar",
+            "MD5": "44d78d2ca99e6d5f4e9fdcfd2c5daec5"
+          }
+        },
+        {
+          "id": "me.gravityio:easyrename:0.3.4+1.20@jar",
+          "name": "Easy Rename",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71026,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/easyrename-0.3.4+1.20.jar",
+            "MD5": "17d790e096bf45a7e7389acb2d50127a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:effective:2.2.1+1.20.1@jar",
+          "name": "Effective",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1665253,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/effective-2.2.1+1.20.1.jar",
+            "MD5": "4228c09ed4fc7468687f36be27e6af01"
+          }
+        },
+        {
+          "id": "me.ImJoshh:elytra_physics:2.0@jar",
+          "name": "Elytra Physics",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 435255,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/elytra_physics-fabric-2.0.jar",
+            "MD5": "43296b2ff2113dcb8aa94bf62f99e59b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.kikugie.elytratrims.extensions:elytratrims_extensions:2.1.0@jar",
+          "name": "Elytra Trims Extensions",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 63713,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/elytratrims_extensions-fabric-2.1.0.jar",
+            "MD5": "e0fae680e43323ee788aec0256522d87"
+          }
+        },
+        {
+          "id": "dev.kikugie.elytratrims.platform:elytratrims:3.2.0@jar",
+          "name": "Elytra Trims",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 569012,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/elytratrims-fabric-3.2.0+1.20.1.jar",
+            "MD5": "4492db9ceac43b223f142dd638310f7a"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
+          "name": "Emotecraft",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 873611,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/emotecraft-for-MC1.20.1-2.2.7-b.build.50-fabric.jar",
+            "MD5": "3a7abdac2462955c5a51af3cd14712ff"
+          }
+        },
+        {
+          "id": "net.darkhax:enchdesc:17.0.16@jar",
+          "name": "EnchantmentDescriptions",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 64353,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/EnchantmentDescriptions-Fabric-1.20.1-17.0.16.jar",
+            "MD5": "4f3d09b107195717458845116d5f2b2a"
+          }
+        },
+        {
+          "id": "tech.alexnijjar:endermanoverhaul:1.0.4@jar",
+          "name": "Enderman Overhaul",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1194281,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/endermanoverhaul-fabric-1.20.1-1.0.4.jar",
+            "MD5": "aecdcf146c1678c91efc14eccf5bc0d6"
+          }
+        },
+        {
+          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.9+1.20@jar",
+          "name": "Enhanced Block Entities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 490690,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/enhancedblockentities-0.9+1.20.jar",
+            "MD5": "bfc7a62a2834f824bb426b73f383e0cb"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.0.2@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 388685,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/entity_model_features_fabric_1.20.1-2.0.2.jar",
+            "MD5": "c01d0770b85957ccdce6e76c5ab63836"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.0.1@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 532804,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/entity_texture_features_fabric_1.20.1-6.0.1.jar",
+            "MD5": "c22372d2aae8f8d9a99a3a26361d14ec"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.6.2-mc1.20.1@jar",
+          "name": "EntityCulling-Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 59348,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/entityculling-fabric-1.6.2-mc1.20.1.jar",
+            "MD5": "29b1642d4e958fd88822e55410f70dfd"
+          }
+        },
+        {
+          "id": "de.isuewo:euphoria_patcher:0.3.3-fabric@jar",
+          "name": "Euphoria Patcher",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 411384,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/EuphoriaPatcher-0.3.3-fabric.jar",
+            "MD5": "27f4c135ec2a2cae8e61b9c3532d3ae1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar.every_compat:everycomp:1.20-2.6.60@jar",
+          "name": "Every Compat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5679354,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/everycomp-1.20-2.6.60-fabric.jar",
+            "MD5": "9ff0384872e2ffe22b3079eb8858f539"
+          }
+        },
+        {
+          "id": "net.superkat:explosiveenhancement:1.2.2-1.20.x@jar",
+          "name": "Explosive Enhancement",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 102550,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/explosive-enhancement-1.2.2-1.20.x.jar",
+            "MD5": "5b5ccdd62571812ed2352c1259797454"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:extra_details:0.3.1-beta-1.20.1@jar",
+          "name": "Extra_details",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3884564,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/extra_details-0.3.1-beta-1.20.1.jar",
+            "MD5": "6bf9816d902d8f649288af9bced8cb90"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.2+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107289,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/fabric-api-0.92.2+1.20.1.jar",
+            "MD5": "92c58961866741106aae126558c9d4a7"
+          }
+        },
+        {
+          "id": "com.teamremastered:endrem:5.2.4@jar",
+          "name": "End Remastered",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 141139,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/fabric-end-remastered-5.2.4.jar",
+            "MD5": "6b284f3429818f605eacf59663ac4510"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.11.0+kotlin.2.0.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7015315,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+            "MD5": "ac91311ce91421ca52a96d2a4e4f078c"
+          }
+        },
+        {
+          "id": "randommcsomethin.fallingleaves:fallingleaves:1.15.6@jar",
+          "name": "Falling Leaves",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 156773,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/fallingleaves-1.15.6+1.20.1.jar",
+            "MD5": "1d13a592b3c329e2bc10b658161e8429"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "farsight:farsight:1.20.1-4.2@jar",
+          "name": "Farsight Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 372719,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/farsight-fabric-1.20.1-4.2.jar",
+            "MD5": "11752dfdfe1594ce461361ae5b0cafc9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.fallenbreath:fastipping:1.0.1@jar",
+          "name": "Fast IP Ping",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10575,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/fast-ip-ping-mc1.20.4-fabric-v1.0.1.jar",
+            "MD5": "9780dd6f78b6b7bb71f90e176f2753f7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125197,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/ferritecore-6.0.1-fabric.jar",
+            "MD5": "a19272e427f75fea59127de6610ea26b"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.impl:forgeconfigapiport:8.0.0@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 397198,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/ForgeConfigAPIPort-v8.0.0-1.20.1-Fabric.jar",
+            "MD5": "9b680a583230400e887dc545aa974936"
+          }
+        },
+        {
+          "id": "generated.fabricmod:forgotten_temple:1.0.0@jar",
+          "name": "MrWilfis's Forgotten Temples",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 418641,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/forgotten_temples-1.0.0-1.20.1.jar",
+            "MD5": "270b1faf0196534f8b11e5f4fb331a94"
+          }
+        },
+        {
+          "id": "com.supermartijn642:formations:1.0.2@jar",
+          "name": "Formations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 284185,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/formations-1.0.2-fabric-mc1.20.jar",
+            "MD5": "4545c55688ab5d68f2e3d03e2c58755a"
+          }
+        },
+        {
+          "id": "com.supermartijn642.formations.nether:formationsnether:1.0.4@jar",
+          "name": "Formations Nether",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 953269,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/formationsnether-1.0.4.jar",
+            "MD5": "9f36aa2789103e47ca3465363fa5f314"
+          }
+        },
+        {
+          "id": "com.supermartijn642.formations.overworld:formationsoverworld:1.0.3@jar",
+          "name": "Formations Overworld",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 834347,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/formationsoverworld-1.0.3.jar",
+            "MD5": "b78f234d0cba7b5d5c2d5f52c35129c3"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:framework:0.6.16@jar",
+          "name": "Framework",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1382530,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/framework-fabric-1.20.1-0.6.16.jar",
+            "MD5": "a3dcc6f989855e1284c508015ff6fcb5"
+          }
+        },
+        {
+          "id": "net.darkhax:friendlyfire:18.0.7@jar",
+          "name": "FriendlyFire",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 23589,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/FriendlyFire-Fabric-1.20.1-18.0.7.jar",
+            "MD5": "73dadf6c54263d5b69bc2cce6131997f"
+          }
+        },
+        {
+          "id": "com.faboslav:friendsandfoes:2.0.10@jar",
+          "name": "Friends&Foes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3308310,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/friendsandfoes-fabric-mc1.20.1-2.0.10.jar",
+            "MD5": "660f64943a41f1335910410a05aed99c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:frozenlib:1.7.2-Fabric+1.20.1@jar",
+          "name": "FrozenLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1426256,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/FrozenLib-1.7.2-Fabric+1.20.1.jar",
+            "MD5": "73f85fab53bec04d4df3ed148a037187"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.4.7@jar",
+          "name": "GeckoLib 4",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1019299,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/geckolib-fabric-1.20.1-4.4.7.jar",
+            "MD5": "203c102e94b02b861c41f76b62805814"
+          }
+        },
+        {
+          "id": "generated.fabricmod:geophilic:v2.2.0-mc1.20u1.20.2@jar",
+          "name": "Geophilic",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 525391,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/geophilic-v2.2.0-mc1.20u1.20.2.jar",
+            "MD5": "1d4f2facfa5b5877fbbad02a8d58b62c"
+          }
+        },
+        {
+          "id": "com.teamabode:guarding:2.4.0@jar",
+          "name": "Guarding",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 344832,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/guarding-2.4.0.jar",
+            "MD5": "441c9f8b5a22170bb3bdbd82e5c90df9"
+          }
+        },
+        {
+          "id": "earth.terrarium:handcrafted:3.0.6@jar",
+          "name": "Handcrafted",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7106384,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/handcrafted-fabric-1.20.1-3.0.6.jar",
+            "MD5": "0cb41833dc35949cb23625d2e2b3579d"
+          }
+        },
+        {
+          "id": "earth.terrarium:heracles:1.1.13@jar",
+          "name": "Heracles",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1411990,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Heracles-fabric-1.20.1-1.1.13.jar",
+            "MD5": "2806930f234021d6329da63bbf283cd2"
+          }
+        },
+        {
+          "id": "net.pixeldreamstudios:heraclesbutton:1.0.0@jar",
+          "name": "Heracles Button",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 138429,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/heraclesbutton-1.0.0.jar",
+            "MD5": "ae3b4621183b8282363573ec26267073"
+          }
+        },
+        {
+          "id": "settingdust.heraclesforblabber:heracles-for-blabber:0.6.3+sha.8d1d1c1@jar",
+          "name": "HeraclesForBlabber",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 346751,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/HeraclesForBlabber-0.6.3+sha.8d1d1c1.jar",
+            "MD5": "bdedf834487aaa70dcc45bc6cf0f5896"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.18@jar",
+          "name": "Iceberg",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123781,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Iceberg-1.20.1-fabric-1.1.18.jar",
+            "MD5": "6ea7e424f1c45e2bd6ac84b2e1b8955a"
+          }
+        },
+        {
+          "id": "fuzs.illagerinvasion:illagerinvasion:8.0.5@jar",
+          "name": "Illager Invasion",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2312109,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/IllagerInvasion-v8.0.5-1.20.1-Fabric.jar",
+            "MD5": "60f2cfd44dbccdd72611b6f815fc6165"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.2.15+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 248945,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/ImmediatelyFast-Fabric-1.2.15+1.20.4.jar",
+            "MD5": "de4e28f26d946c553a5c335d90efebdb"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.vibzz:immersivewind:0.5@jar",
+          "name": "Immersive Winds",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1186972,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/immersive-winds-0.5.jar",
+            "MD5": "4a5314f67a76a9f5f0ed1e66d6e162a7"
+          }
+        },
+        {
+          "id": "leah.leahs_immersive_thunder:leahs-immersive-thunder:1.20.1+1.2.2@jar",
+          "name": "Immersive Thunder",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3305823,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/ImmersiveThunder-1.20.1+1.2.2.jar",
+            "MD5": "0bc2a5e4e49f81f2740f1eab60483372"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.31+mc1.20.4@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105350,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/indium-1.0.31+mc1.20.4.jar",
+            "MD5": "86d20afc613763546f51452ef893be82"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.0+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2668790,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/iris-1.7.0+mc1.20.1.jar",
+            "MD5": "4fffc15dba4b021e626beea0ec00099b"
+          }
+        },
+        {
+          "id": "net.freedinner:items_displayed:1.2.2@jar",
+          "name": "Items Displayed",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 303729,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/ItemsDisplayed%20-%20v1.2.2-1.20.1.jar",
+            "MD5": "11f752956f739019cd304d292a9bd956"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.9.2+fabric@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 567066,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Jade-1.20-fabric-11.9.2.jar",
+            "MD5": "99e394b7fd256d96f7954531ba41f2e2"
+          }
+        },
+        {
+          "id": "generated.fabricmod:kaffees_dual_ride:1.1.0@jar",
+          "name": "Kaffee's Dual Ride",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 45585,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Kaffee's_Dual_Ride-mc1.20.1-1.1.0.jar",
+            "MD5": "6dbceea746511981c2838f349e8d8c72"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:labels:1.20-1.20.2@jar",
+          "name": "Labels",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105844,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/labels-1.20-1.20.2-fabric.jar",
+            "MD5": "e5e676cae33cad73e213e0396233cf06"
+          }
+        },
+        {
+          "id": "dev.lambdaurora:lambdynlights:2.3.2+1.20.1@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 573183,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/lambdynamiclights-2.3.2+1.20.1.jar",
+            "MD5": "9e931a5331bfe8cee677a413b8aea776"
+          }
+        },
+        {
+          "id": "generated.fabricmod:languagereload:1.6.1+1.20.1@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 67109,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/language-reload-1.6.1+1.20.1.jar",
+            "MD5": "8cec8f42b9f6e42c02c95b4549aeec44"
+          }
+        },
+        {
+          "id": "io.github.thepoultryman:walllanterns:1.6.1+1.20.1@jar",
+          "name": "Lanterns Belong on Walls",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 175010,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/lanterns-belong-on-walls-1.6.1+1.20.1.jar",
+            "MD5": "3016f259e68e6283f9ca97510f4d168e"
+          }
+        },
+        {
+          "id": "net.legacy.legaciesandlegends:legacies_and_legends:1.3.7@jar",
+          "name": "Legacies and Legends",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 91778250,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/legacies-and-legends-1.20-v1.3.7.jar",
+            "MD5": "ec9eb192fe5c4738fb8779eaa630568a"
+          }
+        },
+        {
+          "id": "me.shedaniel:lightoverlay:8.0.0@jar",
+          "name": "Light Overlay",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 60814,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/light-overlay-8.0.0.jar",
+            "MD5": "44fc9f8ed4bd28d7ab35419e71074de9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.11.2@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 645865,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/lithium-fabric-mc1.20.1-0.11.2.jar",
+            "MD5": "026ca4110d57f16f701b400ad5d2ca26"
+          }
+        },
+        {
+          "id": "generated.fabricmod:loqui:0.2.0@jar",
+          "name": "Loqui",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 193281,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Loqui-0.2.0.jar",
+            "MD5": "bdfadc73b0676f4c0baa7173580d5cd8"
+          }
+        },
+        {
+          "id": "net.lunade.slime:lunaslimes:1.7.1@jar",
+          "name": "Luna Slimes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 269119,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/LunaSlimes-1.7.1.jar",
+            "MD5": "cde08aaadab190599075ad5435a05ecd"
+          }
+        },
+        {
+          "id": "generated.fabricmod:make_bubbles_pop:0.2.0-fabric-mc1.19.4+@jar",
+          "name": "Make_bubbles_pop",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 18643,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/make_bubbles_pop-0.2.0-fabric-mc1.19.4+.jar",
+            "MD5": "03c3b1c78677e44127eafa695018c7e8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:mavapi:1.1.4@jar",
+          "name": "More Axolotl Variants API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 592470,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/mavapi-1.1.4-mc1.20.1.jar",
+            "MD5": "4f155b59b33081a94e0198c96727dd16"
+          }
+        },
+        {
+          "id": "fabric.io.github.akashiikun:mavm:1.2.6@jar",
+          "name": "More Axolotl Variants Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 792700,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/mavm-1.2.6-mc1.20.1.jar",
+            "MD5": "14b2125d2e8253c913e3fb1b5d85aa4e"
+          }
+        },
+        {
+          "id": "chronosacaria.mcda:mcda:5.0.2@jar",
+          "name": "MC Dungeons Armors",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1101138,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/mcda-5.0.2.jar",
+            "MD5": "d7d5fcab741cd3530429126b509553ac"
+          }
+        },
+        {
+          "id": "eu.midnightdust.fabric.core:midnightlib:1.4.1@jar",
+          "name": "MidnightLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 57229,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/midnightlib-fabric-1.4.1.1.jar",
+            "MD5": "2c178ef9cc3eb44e3e39df1ce7d1da71"
+          }
+        },
+        {
+          "id": "com.lautner.mindful_loading_info:mindful-loading-info:1.0.1@jar",
+          "name": "Mindful Loading Info",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 36495,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/mindful-loading-info-1.0.1.jar",
+            "MD5": "1fdadb6fa2c8f4389ea0d687332bbad4"
+          }
+        },
+        {
+          "id": "com.hexagram2021:mod_whitelist:1.1.0@jar",
+          "name": "Mod Whitelist",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 39583,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/mod_whitelist-1.1.0.jar",
+            "MD5": "8b0696845d233e2d215cbf88fa739548"
+          }
+        },
+        {
+          "id": "dev.enjarai.mls:moderate-loading-screen:1.4.1@jar",
+          "name": "Mod-erate Loading Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 111556,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/moderate-loading-screen-1.4.1+1.20.1.jar",
+            "MD5": "8e7a7d2ad17453190ec5d9426569cef1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:7.2.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 721366,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
+            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+          }
+        },
+        {
+          "id": "io.github.hashibutogarasu:mla:3413e21@jar",
+          "name": "MojangLogoAnimation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4892094,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/mojang-logo-animation-1.20.1-Fabric-3413e21.jar",
+            "MD5": "fa17520b42e57e83688d5f0cd7188716"
+          }
+        },
+        {
+          "id": "com.cursee:monolib:1.3.0@jar",
+          "name": "MonoLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 85933,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/monolib-fabric-1.20.1-1.3.0.jar",
+            "MD5": "159e87bdfb8bc55e911e5fc96fe83193"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.12.6@jar",
+          "name": "Moonlight",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1169563,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/moonlight-1.20-2.12.6-fabric.jar",
+            "MD5": "c5869c3082dc5188bd139395a336335d"
+          }
+        },
+        {
+          "id": "fabric.com.lupin:more_beautiful_torches:3.0.0@jar",
+          "name": "More Beautiful Torches!",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3806741,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/more_beautiful_torches-merged-1.20.1-3.0.0.jar",
+            "MD5": "170fdfe4c9ed2a462f743e12b47452cf"
+          }
+        },
+        {
+          "id": "net.masik.morearmortrims:more_armor_trims:1.3.1-1.20.1@jar",
+          "name": "More Armor Trims",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 129045,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/morearmortrims-1.3.1-1.20.1.jar",
+            "MD5": "406c7626f86a55a5bb6b2a519f0d5d47"
+          }
+        },
+        {
+          "id": "generated.fabricmod:morechestvariants:1.5.6+1.20.2-Fabric@jar",
+          "name": "MoreChestVariants",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 265094,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/MoreChestVariants-1.5.6+1.20.2-Fabric.jar",
+            "MD5": "201e45133a253f8847d6fe267588ee91"
+          }
+        },
+        {
+          "id": "com.mineblock11.mru.entry:mru:0.4.4+1.20.1@jar",
+          "name": "Mineblock's Repeated Utilities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1182726,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/mru-0.4.4+1.20.1.jar",
+            "MD5": "9592f4ae06a2a8a7ef3d411fe22d70bd"
+          }
+        },
+        {
+          "id": "com.nemonotfound.nemosmossyblocks:nemos-mossy-blocks:1.4.2-1.20.1@jar",
+          "name": "Nemo's Mossy Blocks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1293245,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/nemos-mossy-blocks-1.4.2-1.20.1.jar",
+            "MD5": "b5dbe4a350699e7b1bada5cba4271215"
+          }
+        },
+        {
+          "id": "fuzs.netherchested:netherchested:8.0.3@jar",
+          "name": "Nether Chested",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 572681,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/NetherChested-v8.0.3-1.20.1-Fabric.jar",
+            "MD5": "30d7bb13c394f853deb98751857d6512"
+          }
+        },
+        {
+          "id": "com.samgj15:nightlights:1.1@jar",
+          "name": "Night Lights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 428217,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/nightlights-fabric-1.20.1-1.1.jar",
+            "MD5": "609ce0a80148c3612123152079c2095a"
+          }
+        },
+        {
+          "id": "snownee.nimble:nimble:5.0.1@jar",
+          "name": "Nimble",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 28992,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/Nimble-1.20.1-fabric-5.0.1.jar",
+            "MD5": "50faa3a91182187d094ec3e1559a7ff9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:no-resource-pack-warnings:1.3.0@jar",
+          "name": "No Resource Pack Warnings",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5173,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/no-resource-pack-warnings-1.3.0.jar",
+            "MD5": "f49348875a0cf003322e0782d901dcbf"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.7.3@jar",
+          "name": "NotEnoughAnimations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 420381,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/notenoughanimations-fabric-1.7.3-mc1.20.1.jar",
+            "MD5": "e2c58271120d6afa04d13073183f9588"
+          }
+        },
+        {
+          "id": "fudge.notenoughcrashes:notenoughcrashes:4.4.7+1.20.1@jar",
+          "name": "Not Enough Crashes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 136789,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/notenoughcrashes-4.4.7+1.20.1-fabric.jar",
+            "MD5": "cfaa5e33744bf086e4a058e4f0ff9981"
+          }
+        },
+        {
+          "id": "com.chaosthedude:notes:1.20.1-2.1.0-fabric@jar",
+          "name": "Notes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 63929,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Notes-1.20.1-2.1.0-fabric.jar",
+            "MD5": "2df4cd9243204dc618448637e2ee046b"
+          }
+        },
+        {
+          "id": "generated.fabricmod:nvidium:0.2.6-beta@jar",
+          "name": "Nvidium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 164283,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/nvidium-0.2.6-beta.jar",
+            "MD5": "6b5c5cac72b63ff8b2505a1691955f16"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.obscuria.obscureapi:obscure_api:16@jar",
+          "name": "Obscure API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 405700,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Obscure-API-16.jar",
+            "MD5": "716510e995887044218a8ebbba962e55"
+          }
+        },
+        {
+          "id": "io.wispforest:owo:0.11.2+1.20@jar",
+          "name": "Oωo",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 905421,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/owo-lib-0.11.2+1.20.jar",
+            "MD5": "9150f588f732ae38c0320a17fa340626"
+          }
+        },
+        {
+          "id": "net.paladins:paladins:1.2.6+1.20.1@jar",
+          "name": "Paladins & Priests (RPG Series)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2447939,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/paladins-1.2.6+1.20.1.jar",
+            "MD5": "945387b15d4e5b96942a7c9c77394690"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:particle_core:0.1.2+1.20@jar",
+          "name": "Particle Core",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 278345,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/particle_core-0.1.2+1.20.jar",
+            "MD5": "942db05c2268550e87d0cf5328cb3641"
+          }
+        },
+        {
+          "id": "pigcart.particlerain:particlerain:2.0.8@jar",
+          "name": "Particle Rain",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 603307,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/particle-rain-2.0.8.jar",
+            "MD5": "b950dc0bb3802f98995f2a38fda04340"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:particletweaks:1.1.3-Fabric+1.20.1-unstable@jar",
+          "name": "Particle Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 298988,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/ParticleTweaks-1.1.3-1.20.x.jar",
+            "MD5": "aa7066de8717d57abadfd218a7327dd6"
+          }
+        },
+        {
+          "id": "com.chailotl:particular:1.0.3@jar",
+          "name": "Particular",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 175206,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/particular-1.0.3.jar",
+            "MD5": "8034710f849ebc75c60e62f1a2696d8c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "nx.pingwheel:ping-wheel:1.9.1@jar",
+          "name": "Ping Wheel",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 107237,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Ping-Wheel-1.9.1-fabric-1.20.1.jar",
+            "MD5": "b49e196a6129837b20af5a2e62a593a3"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.0.10@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11375312,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/plasmovoice-fabric-1.20.1-2.0.10.jar",
+            "MD5": "0732e196a467cbaae908f21c1b7815c2"
+          }
+        },
+        {
+          "id": "dev.kosmx.playerAnim:player-animator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 181008,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
+            "MD5": "03dfb09aabe5c2c8167568cd5c32666b"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:polymorph:0.49.5+1.20.1@jar",
+          "name": "Polymorph",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 673664,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/polymorph-fabric-0.49.5+1.20.1.jar",
+            "MD5": "bc265c7a95f33eeec8a4f28a9c2da1a6"
+          }
+        },
+        {
+          "id": "net.projectile_damage:projectile_damage:3.2.3+1.20.1@jar",
+          "name": "Projectile Damage Attribute",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 99868,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/projectile_damage-fabric-3.2.3+1.20.1.jar",
+            "MD5": "d690513d0b9c1e67550183d724b028f1"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.21@jar",
+          "name": "Puzzles Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 978795,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/PuzzlesLib-v8.1.21-1.20.1-Fabric.jar",
+            "MD5": "eb0c99e235ee5233fcd4063379d92396"
+          }
+        },
+        {
+          "id": "su.plo.voice.soundphysics:pv-addon-soundphysics:1.0.1@jar",
+          "name": "Pv-addon-soundphysics",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10686,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/pv-addon-soundphysics-1.0.1.jar",
+            "MD5": "f4057fa2e49c7e71b983b18584b7b39a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:quad:1.3.0-beta.3+1.20.4-Fabric@jar",
+          "name": "Quad",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 124068,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Quad-1.3.0-beta.3+1.20.4-Fabric.jar",
+            "MD5": "5602c51bde8d6353d89daab72a49fa94"
+          }
+        },
+        {
+          "id": "net.fabric_extras.ranged_weapon:ranged_weapon_api:1.1.2+1.20.1@jar",
+          "name": "RangedWeaponAPI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 113420,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/ranged_weapon_api-1.1.2+1.20.1.jar",
+            "MD5": "1189c8ded162cd981ea10d40601e53f4"
+          }
+        },
+        {
+          "id": "com.spanser:reacharound:1.1.2@jar",
+          "name": "Reacharound",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25458,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/reacharound+1.20-1.1.2.jar",
+            "MD5": "c1704c87f32e55fbd8c2d15b493cb991"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.1-build.101@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77304,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+            "MD5": "0db2ef332dd00de8c64e34f192317118"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.teamresourceful.resourcefulconfig.web.server:resourcefulconfig:2.1.2@jar",
+          "name": "Resourcefulconfig",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 134793,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/resourcefulconfig-fabric-1.20.1-2.1.2.jar",
+            "MD5": "84b1427c5d4cfd30e54c20ba4120e8d3"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:2.1.24@jar",
+          "name": "Resourceful Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 423114,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/resourcefullib-fabric-1.20.1-2.1.24.jar",
+            "MD5": "28dc303cc299a09ea7c1d0199a0bd882"
+          }
+        },
+        {
+          "id": "net.treset:ridehud:1.3.0+1.20@jar",
+          "name": "Ride Hud",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 86806,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/ridehud-1.3.0+1.20.jar",
+            "MD5": "78b47a26294d5e127bfba59d4e699e5d"
+          }
+        },
+        {
+          "id": "net.rogues:rogues:1.0.7+1.20.1@jar",
+          "name": "Rogues & Warriors (RPG Series)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 995895,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/rogues-1.0.7+1.20.1.jar",
+            "MD5": "c3674e7fba3e8cd37ec4f46b64b8627a"
+          }
+        },
+        {
+          "id": "me.shedaniel.rei.impl.init:roughlyenoughitems:12.1.725@jar",
+          "name": "Roughly Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2382097,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/RoughlyEnoughItems-12.1.725-fabric.jar",
+            "MD5": "65061e1ca59a21f9934768bdad3c2e11"
+          }
+        },
+        {
+          "id": "net.runes:runes:0.9.13+1.20.1@jar",
+          "name": "Runes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 242139,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/runes-0.9.13+1.20.1.jar",
+            "MD5": "9421182fa45686ae55b60e49722d7125"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:sawmill:1.20-1.4.3@jar",
+          "name": "Universal Sawmill",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 569082,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/sawmill-1.20-1.4.3-fabric.jar",
+            "MD5": "c6cd2767c4c5951a30fe8c64e25c450c"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:scholar:1.0.0@jar",
+          "name": "Scholar",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 194260,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/scholar-1.20.1-1.0.0-fabric.jar",
+            "MD5": "fad660c2076454b38787b6a4ac62d61c"
+          }
+        },
+        {
+          "id": "me.jfenn.scoreboardoverhaul:scoreboard-overhaul:1.1.2-mc1.20.1@jar",
+          "name": "Scoreboard Overhaul",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6812668,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/scoreboardoverhaul-1.1.2-mc1.20.1.jar",
+            "MD5": "e14d54309fc8e6e67f33d7aea8a8df90"
+          }
+        },
+        {
+          "id": "com.laryisland:screenfx:1.4.1+1.20.1@jar",
+          "name": "ScreenFX",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 62997,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/screenfx-1.4.1+1.20.1.jar",
+            "MD5": "1dae633c019019bbf9e0e8689ee66c76"
+          }
+        },
+        {
+          "id": "io.github.lgatodu47:screenshot_viewer:1.3.1-fabric-mc1.20@jar",
+          "name": "Screenshot Viewer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 270052,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/screenshot_viewer-1.3.1-fabric-mc1.20.jar",
+            "MD5": "f1c7e1d4b5c1ed38db95309d1446e13c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:searchables:1.0.3@jar",
+          "name": "Searchables",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 80283,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Searchables-fabric-1.20.1-1.0.3.jar",
+            "MD5": "57cbf00f9bb837538a3a694cad095a11"
+          }
+        },
+        {
+          "id": "com.misterpemodder:shulkerboxtooltip:4.0.4+1.20.1@jar",
+          "name": "Shulker Box Tooltip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1215693,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/shulkerboxtooltip-fabric-4.0.4+1.20.1.jar",
+            "MD5": "f3dbda55b10626725456665abd633e93"
+          }
+        },
+        {
+          "id": "net.tuples:captcha:1.4-1.20.1@jar",
+          "name": "Simple Captcha",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10209217,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/simple-captcha-1.4-1.20.1.jar",
+            "MD5": "1e87a9c59c2b010330dfbf3c932b5594"
+          }
+        },
+        {
+          "id": "fonnymunkey.simplehats:simplehats:1.20.1-0.3.0@jar",
+          "name": "SimpleHats",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1557853,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/simplehats-fabric-1.20.1-0.3.0.jar",
+            "MD5": "a3ea7a486319b98b76da07c312baea4c"
+          }
+        },
+        {
+          "id": "com.natamus:simplemenu:1.1@jar",
+          "name": "Simple Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 56140,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/simplemenu-1.20.1-1.1.jar",
+            "MD5": "9b833611fd38a3e1841981b9edd69f7a"
+          }
+        },
+        {
+          "id": "me.hypherionmc.simplerpc:simple-rpc:3.2.4@jar",
+          "name": "Simple RPC",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 685167,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/SimpleRPC-fabric-1.20-3.2.4.jar",
+            "MD5": "8461639f8aa1857e114a912139392137"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.6.4@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 471410,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/skinlayers3d-fabric-1.6.4-mc1.20.1.jar",
+            "MD5": "22e1f4e5afcc852ea137b5ffb07294fa"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.boyonk.smokesignals:smoke_signals:1.0@jar",
+          "name": "Smoke Signals",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 374239,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/smokesignals-1.0+1.20.jar",
+            "MD5": "96023e630efd4396ed2524453173d63a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:smoothscrollingrefurbished:1.1.2@jar",
+          "name": "Smooth Scrolling Refurbished",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10563,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/SmoothScrollingRefurbished+1.20-1.1.2.jar",
+            "MD5": "ed8de4a56563ef3ac6dde9c6961ab7b3"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.1-build.115@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 385539,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/sodium-extra-0.5.4+mc1.20.1-build.115.jar",
+            "MD5": "9eaed09a486eee9a1326de5dd80faa0a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.1.2@jar",
+          "name": "Sound Physics Remastered",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 124385,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/soundphysics-fabric-1.20.1-1.1.2.jar",
+            "MD5": "dca1019b3f2a8851175058edd19a46ca"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.imb11:sounds:0.7.0+1.20.1@jar",
+          "name": "Sounds",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1552641,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/Sounds-0.7.0+1.20.1.jar",
+            "MD5": "766a4a54e5c39b4deb9910cce4d40ebd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.spell_engine:spell_engine:0.15.6+1.20.1@jar",
+          "name": "Spell Engine",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1452905,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/spell_engine-0.15.6+1.20.1.jar",
+            "MD5": "7094e85d44d88c81b7e6709739e47fff"
+          }
+        },
+        {
+          "id": "net.spell_power:spell_power:0.11.0+1.20.1@jar",
+          "name": "Spell Power Attribute",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 176399,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/spell_power-0.11.0+1.20.1.jar",
+            "MD5": "00c2a92b8af7efbe2698ec5732eb40bd"
+          }
+        },
+        {
+          "id": "generated.fabricmod:starlight:1.1.2+fabric.dbc156f@jar",
+          "name": "Starlight",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 127368,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/starlight-1.1.2+fabric.dbc156f.jar",
+            "MD5": "a0b391bf55891502c2074bd078bb5899"
+          }
+        },
+        {
+          "id": "virtuoel.statement:statement:4.2.9+1.14.4-1.20.4@jar",
+          "name": "Statement",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 186378,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Statement-4.2.9+1.14.4-1.20.4.jar",
+            "MD5": "7b9656a1632a06d14c264bc1196e43b1"
+          }
+        },
+        {
+          "id": "io.github.a5b84.statuseffectbars:status-effect-bars:1.0.3@jar",
+          "name": "Status Effect Bars",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 44632,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/status-effect-bars-1.0.3.jar",
+            "MD5": "fc1642fa6d4a6a3cf8e3c392d367124a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.stoneworks:stoneworks:8.0.0@jar",
+          "name": "Stoneworks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2477930,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Stoneworks-v8.0.0-1.20.1-Fabric.jar",
+            "MD5": "a2769a27367d659e6d4d0e70e7dd5d9d"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.17@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 564556,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/supermartijn642corelib-1.1.17-fabric-mc1.20.1.jar",
+            "MD5": "e888fa76d63e72ae09d57ae1bfa647f8"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.20-2.8.17@jar",
+          "name": "Supplementaries",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14347091,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/supplementaries-1.20-2.8.17-fabric.jar",
+            "MD5": "d2fb8a9c8f6b398371ed03c75d600de3"
+          }
+        },
+        {
+          "id": "andrews.swampier_swamps:swampier_swamps:1.20-4.0.0@jar",
+          "name": "Swampier Swamps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 735704,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/swampier_swamps-1.20-4.0.0.jar",
+            "MD5": "04b2a37704f2c6d732470016b7919c6c"
+          }
+        },
+        {
+          "id": "net.talkbubbles:talkbubbles:1.0.8@jar",
+          "name": "Talk Bubbles",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 20304,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/talkbubbles-1.0.8.jar",
+            "MD5": "842917782e64c86b7ed9e2fee8b8d320"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.fabricmc:telepistons:1.1.3@jar",
+          "name": "Telepistons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 90373,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/telepistons-1.1.3-1.20.jar",
+            "MD5": "e65f2262934d5222e0e5f1492a6085ae"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:3.0.1.6@jar",
+          "name": "TerraBlender",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 322204,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/TerraBlender-fabric-1.20.1-3.0.1.6.jar",
+            "MD5": "66619756e41b7d9d95a94d93434d0ee8"
+          }
+        },
+        {
+          "id": "us.potatoboy:timeoutout:1.0.3+1.19.1@jar",
+          "name": "TimeOut Out",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 9833,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/timeoutout-1.0.3+1.19.1.jar",
+            "MD5": "eb6e6b4625d2138833ad5f61a086c25a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:tool-trims:b2.1.1@jar",
+          "name": "Tool Trims",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1668765,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/tool-trims-mod-vb2-1-1a.jar",
+            "MD5": "2802b0c4621362b0344b0f9d98b6e9c6"
+          }
+        },
+        {
+          "id": "retr0.travellerstoasts:travellerstoasts:1.1.3+1.20.1@jar",
+          "name": "TravellersToasts",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 115593,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/travellerstoasts-1.1.3+1.20.1.jar",
+            "MD5": "837e65e672e255b650610e2651a3994d"
+          }
+        },
+        {
+          "id": "dev.emi:trinkets:3.7.2@jar",
+          "name": "Trinkets",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 238532,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/trinkets-3.7.2.jar",
+            "MD5": "c010ccc2015e5b1f3cb1994694ecc512"
+          }
+        },
+        {
+          "id": "com.ninni:twigs:3.1.0@jar",
+          "name": "Twigs",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2958651,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/twigs-3.1.0-fabric.jar",
+            "MD5": "31b4077187dfb1ff06727bd79f300ce9"
+          }
+        },
+        {
+          "id": "net.valhelsia:valhelsia_core:1.1.2@jar",
+          "name": "Valhelsia Core",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 151703,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/valhelsia_core-fabric-1.20.1-1.1.2.jar",
+            "MD5": "b4e2ee6efd04fb1faa707d7eac2fce58"
+          }
+        },
+        {
+          "id": "net.valhelsia:valhelsia_furniture:1.1.3@jar",
+          "name": "Valhelsia Furniture",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4506702,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/valhelsia_furniture-fabric-1.20.1-1.1.3.jar",
+            "MD5": "62ee06bf6dcd59bf04d9eaa4974c692c"
+          }
+        },
+        {
+          "id": "net.treset:vanillaconfig:1.2.7+1.20@jar",
+          "name": "Vanilla Config",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 120647,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/vanillaconfig-1.2.7+1.20.jar",
+            "MD5": "0e607cec86bdb08e1fd522035aeec223"
+          }
+        },
+        {
+          "id": "fabric.com.faboslav:variantsandventures:1.0.3@jar",
+          "name": "Variants & Ventures",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1865237,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/variantsandventures-mc1.20.1-1.0.3.jar",
+            "MD5": "726b4d3203d03f3a0660f8db0c3c0e8c"
+          }
+        },
+        {
+          "id": "ru.pinkgoosik.villagerhats:villager-hats:1.6.2+1.20@jar",
+          "name": "Villager Hats",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 40492,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/villager-hats-1.6.2+1.20.jar",
+            "MD5": "b58c5fecceffc131ec69680b9be6511e"
+          }
+        },
+        {
+          "id": "com.lion:villagersplus:3.1@jar",
+          "name": "Villagers Plus",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 356336,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/VillagersPlus_3.1_(FABRIC)_for_1.20.1.jar",
+            "MD5": "c79ffd8494fd1eabea8004a8c781b703"
+          }
+        },
+        {
+          "id": "visuality:visuality:0.7.1+1.20@jar",
+          "name": "Visuality",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 67302,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/visuality-0.7.1+1.20.jar",
+            "MD5": "14aaa65078fcff3af29fef4e1d7d2161"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.goby56:wakes:0.2.4+1.20.1@jar",
+          "name": "Wakes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 347775,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/wakes-0.2.4+1.20.1.jar",
+            "MD5": "f75af02420da5245d145257bdf0a080a"
+          }
+        },
+        {
+          "id": "com.goby56:wakes:0.2.4+1.20.1@jar",
+          "name": "Wakes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 347775,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/wakes-0.2.4+1.20.1.jar",
+            "MD5": "f75af02420da5245d145257bdf0a080a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.20.1-1.1.1@jar",
+          "name": "What Are They Up To",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 679428,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/watut-fabric-1.20.1-1.1.1.jar",
+            "MD5": "674c35be35ccb7fa3ddc75f7f47f2200"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.tr7zw:waveycapes:1.4.7@jar",
+          "name": "WaveyCapes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 357518,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/waveycapes-fabric-1.4.7-mc1.20.1.jar",
+            "MD5": "687a0d1d3e4d68da444a188fdb55ea76"
+          }
+        },
+        {
+          "id": "net.welcomescreen:welcomescreen:1.0.1@jar",
+          "name": "WelcomeScreen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 22962,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/welcomescreen-1.0.1.jar",
+            "MD5": "9fa214c94a3ca2c1d5521907ba603589"
+          }
+        },
+        {
+          "id": "net.wizards:wizards:1.2.2+1.20.1@jar",
+          "name": "Wizards (RPG Series)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2874789,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/wizards-1.2.2+1.20.1.jar",
+            "MD5": "b67ac92cba41c9ab0837ccd060a6c284"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimapfair:24.1.1@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1531052,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/Xaeros_Minimap_FP24.1.1_Fabric_1.20.jar",
+            "MD5": "30a56cb48fc877b855b65c21804a04e6"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.38.8@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 946610,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/XaerosWorldMap_1.38.8_Fabric_1.20.jar",
+            "MD5": "e9b10e95e65eb11b7df5acd213f3ff71"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.5.0+1.20.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1148529,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/YetAnotherConfigLib-3.5.0+1.20.1-fabric.jar",
+            "MD5": "84ec83096ccce215ad670ce6ea8c3055"
+          }
+        },
+        {
+          "id": "net.medievalmusic:medievalmusic:1.20.1-2.1@jar",
+          "name": "Medieval Music Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 304414450,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/optionalon/zmedievalmusic-fabric-1.20.1-2.1.jar",
+            "MD5": "6071d9dd8d56cf2c05afb85f6ee8f019"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.13.4+1.20.1@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1064869,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/Zoomify-2.13.4+1.20.1.jar",
+            "MD5": "aef051881848f87e35945c2864359cfa"
+          }
+        },
+        {
+          "id": "DistantHorizons.toml",
+          "name": "DistantHorizons.toml",
+          "type": "File",
+          "artifact": {
+            "size": 30851,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/DistantHorizons.toml",
+            "MD5": "8ddc8fd54b9bc624144aa41a657ff498",
+            "path": "config/DistantHorizons.toml"
+          }
+        },
+        {
+          "id": "advancedcompass.json",
+          "name": "advancedcompass.json",
+          "type": "File",
+          "artifact": {
+            "size": 704,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/advancedcompass.json",
+            "MD5": "f0be6e61bb00c3fab75627ddb52e5cb1",
+            "path": "config/advancedcompass.json"
+          }
+        },
+        {
+          "id": "builtinservers.json",
+          "name": "builtinservers.json",
+          "type": "File",
+          "artifact": {
+            "size": 168,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/builtinservers.json",
+            "MD5": "79d90ff730f707439e2f02331137c6d6",
+            "path": "config/builtinservers.json"
+          }
+        },
+        {
+          "id": "chesttracker.json5",
+          "name": "chesttracker.json5",
+          "type": "File",
+          "artifact": {
+            "size": 445,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/chesttracker.json5",
+            "MD5": "863fee647737b24dd9acf37f9756a7f8",
+            "path": "config/chesttracker.json5"
+          }
+        },
+        {
+          "id": "hide-blocks.json",
+          "name": "hide-blocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 191,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/jade/hide-blocks.json",
+            "MD5": "da56a1383649dd1ebbbf41d9cfddb0da",
+            "path": "config/jade/hide-blocks.json"
+          }
+        },
+        {
+          "id": "hide-entities.json",
+          "name": "hide-entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 325,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/jade/hide-entities.json",
+            "MD5": "7b674db14cfdc978fa9786641eec8df6",
+            "path": "config/jade/hide-entities.json"
+          }
+        },
+        {
+          "id": "jade.json",
+          "name": "jade.json",
+          "type": "File",
+          "artifact": {
+            "size": 975,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/jade/jade.json",
+            "MD5": "c6ed642a62fd8e07b4bd34de87eb1f69",
+            "path": "config/jade/jade.json"
+          }
+        },
+        {
+          "id": "plugins.json",
+          "name": "plugins.json",
+          "type": "File",
+          "artifact": {
+            "size": 1835,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/jade/plugins.json",
+            "MD5": "fac62e87cb46d73cd295578d2e1dfe11",
+            "path": "config/jade/plugins.json"
+          }
+        },
+        {
+          "id": "sort-order.json",
+          "name": "sort-order.json",
+          "type": "File",
+          "artifact": {
+            "size": 1720,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/jade/sort-order.json",
+            "MD5": "b0fb6653c5035c35d17697a1cf15357a",
+            "path": "config/jade/sort-order.json"
+          }
+        },
+        {
+          "id": "usernamecache.json",
+          "name": "usernamecache.json",
+          "type": "File",
+          "artifact": {
+            "size": 1249,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/jade/usernamecache.json",
+            "MD5": "21f20f5634a186fb1382f65adb60d959",
+            "path": "config/jade/usernamecache.json"
+          }
+        },
+        {
+          "id": "labels-client.json",
+          "name": "labels-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 339,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/labels-client.json",
+            "MD5": "bf637d3e173b2b255abb27d64363d58d",
+            "path": "config/labels-client.json"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 8130,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/simplemenu/background/background.png",
+            "MD5": "536f9633915dbd10d9d40f26de21e6ff",
+            "path": "config/simplemenu/background/background.png"
+          }
+        },
+        {
+          "id": "icon_16x16.png",
+          "name": "icon_16x16.png",
+          "type": "File",
+          "artifact": {
+            "size": 768,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/simplemenu/icon/icon_16x16.png",
+            "MD5": "2dc40fc94365ee9470dfe6584269dec6",
+            "path": "config/simplemenu/icon/icon_16x16.png"
+          }
+        },
+        {
+          "id": "icon_32x32.png",
+          "name": "icon_32x32.png",
+          "type": "File",
+          "artifact": {
+            "size": 2075,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/simplemenu/icon/icon_32x32.png",
+            "MD5": "56762fd89ebfd9322aae043d40b5a4ea",
+            "path": "config/simplemenu/icon/icon_32x32.png"
+          }
+        },
+        {
+          "id": "edition.png",
+          "name": "edition.png",
+          "type": "File",
+          "artifact": {
+            "size": 8543,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/simplemenu/logo/edition.png",
+            "MD5": "058ca29ae463b8d8aec6d0ee4b816ea7",
+            "path": "config/simplemenu/logo/edition.png"
+          }
+        },
+        {
+          "id": "logo.png",
+          "name": "logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 78015,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/simplemenu/logo/logo.png",
+            "MD5": "caf76e558ff7f4bab00d5f7bc9099c07",
+            "path": "config/simplemenu/logo/logo.png"
+          }
+        },
+        {
+          "id": "simplemenu.json5",
+          "name": "simplemenu.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2263,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/simplemenu.json5",
+            "MD5": "03298a3030c64d68c798833a549ff678",
+            "path": "config/simplemenu.json5"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3662,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/config/xaerominimap.txt",
+            "MD5": "bbd258fb0672044328503a45f0d6b760",
+            "path": "config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "BetterVanillaBuildingV2.98.zip",
+          "name": "BetterVanillaBuildingV2.98.zip",
+          "type": "File",
+          "artifact": {
+            "size": 4306673,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/resourcepacks/BetterVanillaBuildingV2.98.zip",
+            "MD5": "5fb169183f08263e52bd72456097aece",
+            "path": "resourcepacks/BetterVanillaBuildingV2.98.zip"
+          }
+        },
+        {
+          "id": "CreeperOverhaulOverhaul_1.18.1-1.0.zip",
+          "name": "CreeperOverhaulOverhaul_1.18.1-1.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 38548,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/resourcepacks/CreeperOverhaulOverhaul_1.18.1-1.0.zip",
+            "MD5": "79277274fdeeda967b63ed220501a7d8",
+            "path": "resourcepacks/CreeperOverhaulOverhaul_1.18.1-1.0.zip"
+          }
+        },
+        {
+          "id": "JBShow - Animations.zip",
+          "name": "JBShow - Animations.zip",
+          "type": "File",
+          "artifact": {
+            "size": 517222,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/resourcepacks/JBShow%20-%20Animations.zip",
+            "MD5": "b7b2521fcb687eb2c89b6c3433c6a508",
+            "path": "resourcepacks/JBShow - Animations.zip"
+          }
+        },
+        {
+          "id": "JBShow - Interface.zip",
+          "name": "JBShow - Interface.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3746580,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/resourcepacks/JBShow%20-%20Interface.zip",
+            "MD5": "8158947c2c59a08df19a91e8f2533865",
+            "path": "resourcepacks/JBShow - Interface.zip"
+          }
+        },
+        {
+          "id": "cubic-sun-moon-vb1-7-4a.zip",
+          "name": "cubic-sun-moon-vb1-7-4a.zip",
+          "type": "File",
+          "artifact": {
+            "size": 15039316,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/resourcepacks/cubic-sun-moon-vb1-7-4a.zip",
+            "MD5": "5ea3a19a8b2865a193cae6da8188f5ee",
+            "path": "resourcepacks/cubic-sun-moon-vb1-7-4a.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.2.1.zip",
+          "name": "ComplementaryReimagined_r5.2.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 439882,
+            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.2.1.zip",
+            "MD5": "1a9612a05bb17db3ad1636c764455448",
+            "path": "shaderpacks/ComplementaryReimagined_r5.2.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

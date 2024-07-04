@@ -1,0 +1,139 @@
+Mod qui passe :
+Adaptive Tooltips /
+Mod Menu /
+YetAnotherConfigLib /
+Fabric API /
+Additional Lanterns /
+SuperMartijn642's Core Lib /
+Advanced Compass /
+Advancement Plaques /
+Amendments /
+Forge Config API Port /
+Iceberg /
+Moonlight /
+Animal Armor Trims: Horses /
+AntiGhost /
+AppleSkin /
+Aquamirae /
+Archers (RPG Series) /
+Architectury /
+Armortip /
+Athena /
+AzureLib Armor /
+MonoLib /
+Obscure API /
+Spell Engine /
+Player Animator /
+Spell Power Attribute /
+Cloth Config v11 /
+Backpacked /
+BCLib /
+Beautify /
+Better /
+Better Nether /
+Better Combat /
+Biome Music Mod /
+Blabber /
+Bodies! Bodies! /
+Bookshelf /
+Bounced! /
+Builtin Servers /
+Burnt Basic Fabric /
+Framework /
+Cupboard /
+Capes /
+Charmofundying /
+Chat Heads /
+ChatAnimation /
+Chest Tracker /
+Chipped /
+CICADA /
+Collective /
+Connectible Chains /
+Continuity /
+Controllable /
+Controlling For Fabric /
+CoroUtil /
+CraterLib /
+Crawl /
+Creeper Overhaul /
+Cut Through /
+Fabric Language Kotlin /
+Searchables /
+GeckoLib 4 /
+Resourcefulconfig /
+Puzzles Lib /
+Dark Loading Screen /
+Decorative Blocks /
+Deeper and Darker /
+Diagonal Fences /
+Diagonal Walls /
+Diagonal Windows /
+Drip Sounds /
+MmmMmmMmmMmm /
+Dungeon Now Loading /
+Dungeons and Taverns /
+Dusty Decorations Refabricated /
+Dynamic Brightness /
+Easy Magic /
+Easy Rename /
+Effective /
+Elytra Physics /
+Elytra Trims Extensions /
+Elytra Trims /
+Emotecraft /
+EnchantmentDescriptions /
+Enderman Overhaul /
+Enhanced Block Entities /
+Entity Model Features /
+Entity Texture Features /
+EntityCulling-Fabric /
+Euphoria Patcher /
+Every Compat /
+Explosive Enhancement /
+Extra_details /
+End Remastered /
+Falling Leaves /
+Farsight Mod /
+Fast IP Ping /
+FerriteCore /
+MrWilfis's Forgotten Temples /
+Formations /
+Formations Nether /
+Formations Overworld /
+FriendlyFire /
+Friends&Foes /
+FrozenLib /
+Geophilic /
+Guarding /
+Handcrafted /
+Heracles /
+Heracles Button /
+HeraclesForBladder /
+Illager Invasion /
+ImmediatelyFast /
+Immersive Winds /
+Immersive Thunder /
+Items Displayed /
+Jade /
+Kaffee's Dual Ride /
+Labels /
+LambDynamicLights /
+Language Reload /
+Lanterns Belong on Walls /
+Legacies and Legends /
+Light Overlay /
+Lithium /
+Loqui /
+Luna Slimes /
+Statement /
+Make_bubbles_pop /
+More Axolotl Variants API /
+More Axolotl Variants Mod /
+
+
+
+Mod qui fait crash :
+Sodium X (solution disponible sur le github de Sodium)
+Iris X (dépend de Sodium)
+Idium X (dépend de Sodium)
