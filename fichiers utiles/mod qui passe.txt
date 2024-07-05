@@ -130,10 +130,21 @@ Statement /
 Make_bubbles_pop /
 More Axolotl Variants API /
 More Axolotl Variants Mod /
+MidnightLib /
+Mod Whitelist /
+MojangLogoAnimation /
+More Beautiful Torches! /
+More Armor Trims /
+MoreChestVariants /
 
+Mod pas testé :
+Mod-erate Loading Screen ?
+Nvidium ?
 
 
 Mod qui fait crash :
 Sodium X (solution disponible sur le github de Sodium)
 Iris X (dépend de Sodium)
 Idium X (dépend de Sodium)
+Reese's Sodium Options X (dépend de Sodium)
+Mindful Loading Info X

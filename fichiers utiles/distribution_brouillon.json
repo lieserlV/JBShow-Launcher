@@ -1,35 +1,4 @@
 
-        
-        {
-          "id": "chronosacaria.mcda:mcda:5.0.2@jar",
-          "name": "MC Dungeons Armors",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1101138,
-            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/mcda-5.0.2.jar",
-            "MD5": "d7d5fcab741cd3530429126b509553ac"
-          }
-        },
-        {
-          "id": "eu.midnightdust.fabric.core:midnightlib:1.4.1@jar",
-          "name": "MidnightLib",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 57229,
-            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/midnightlib-fabric-1.4.1.1.jar",
-            "MD5": "2c178ef9cc3eb44e3e39df1ce7d1da71"
-          }
-        },
-        {
-          "id": "com.lautner.mindful_loading_info:mindful-loading-info:1.0.1@jar",
-          "name": "Mindful Loading Info",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 36495,
-            "url": "https://jbshow-cdn.sigma-heberg.fr/servers/beta-light-1.20.1/fabricmods/required/mindful-loading-info-1.0.1.jar",
-            "MD5": "1fdadb6fa2c8f4389ea0d687332bbad4"
-          }
-        },
         {
           "id": "com.hexagram2021:mod_whitelist:1.1.0@jar",
           "name": "Mod Whitelist",
