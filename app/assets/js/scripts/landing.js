@@ -666,6 +666,7 @@ function slide_(up){
     const lCLRight = document.querySelector('#landingContainer > #lower > #right')
     const newsBtn = document.querySelector('#landingContainer > #lower > #center #content')
     const landingContainer = document.getElementById('landingContainer')
+    const playernameshower = document.getElementById('playernameshower')
     const newsContainer = document.querySelector('#landingContainer > #newsContainer')
 
     newsGlideCount++
